@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		40124AB41FF00B5000CCEC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40124AB31FF00B5000CCEC3F /* AppDelegate.swift */; };
-		40124AB61FF00B5000CCEC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40124AB51FF00B5000CCEC3F /* ViewController.swift */; };
 		40124AB91FF00B5000CCEC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40124AB71FF00B5000CCEC3F /* Main.storyboard */; };
 		40124ABB1FF00B5000CCEC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40124ABA1FF00B5000CCEC3F /* Assets.xcassets */; };
 		40124ABE1FF00B5000CCEC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40124ABC1FF00B5000CCEC3F /* LaunchScreen.storyboard */; };
+		40124AC71FF00C3B00CCEC3F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40124AC61FF00C3B00CCEC3F /* ImageViewController.swift */; };
+		40124AC91FF024B900CCEC3F /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40124AC81FF024B900CCEC3F /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40124AB01FF00B4F00CCEC3F /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40124AB31FF00B5000CCEC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40124AB51FF00B5000CCEC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40124AB81FF00B5000CCEC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40124ABA1FF00B5000CCEC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40124ABD1FF00B5000CCEC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40124ABF1FF00B5000CCEC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40124AC61FF00C3B00CCEC3F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		40124AC81FF024B900CCEC3F /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		40124AB21FF00B5000CCEC3F /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				40124AB31FF00B5000CCEC3F /* AppDelegate.swift */,
-				40124AB51FF00B5000CCEC3F /* ViewController.swift */,
+				40124AC51FF00B8700CCEC3F /* Supporting Files */,
 				40124AB71FF00B5000CCEC3F /* Main.storyboard */,
-				40124ABA1FF00B5000CCEC3F /* Assets.xcassets */,
-				40124ABC1FF00B5000CCEC3F /* LaunchScreen.storyboard */,
 				40124ABF1FF00B5000CCEC3F /* Info.plist */,
+				40124AC61FF00C3B00CCEC3F /* ImageViewController.swift */,
+				40124AC81FF024B900CCEC3F /* DemoURL.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		40124AC51FF00B8700CCEC3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40124AB31FF00B5000CCEC3F /* AppDelegate.swift */,
+				40124ABA1FF00B5000CCEC3F /* Assets.xcassets */,
+				40124ABC1FF00B5000CCEC3F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40124AB61FF00B5000CCEC3F /* ViewController.swift in Sources */,
+				40124AC71FF00C3B00CCEC3F /* ImageViewController.swift in Sources */,
 				40124AB41FF00B5000CCEC3F /* AppDelegate.swift in Sources */,
+				40124AC91FF024B900CCEC3F /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
